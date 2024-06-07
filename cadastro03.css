@@ -1,0 +1,88 @@
+body{
+    background-image: url('imagens/wallpaperLogin.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#principal{
+    align-items: center;
+    justify-content: center;
+    height: 84vh;
+    width: 75vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+#logo{
+    height: 25vh;
+    width: 55vh;
+    margin-top: 1.5%;
+    margin-left: 13%;
+
+}
+#google{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    width: 55vh;
+    margin-left: 13%;
+    margin-top: 2%;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(21, 88, 190, 1);
+    padding-top: 3%;
+    border-color: 1px solid red;
+    border-radius: 3vh;
+    
+}
+#textoP{
+    margin-left: 25%;
+}
+#email{
+    height: 7vh;
+    width: 55vh;
+    margin-left: 13%;
+    background-color: rgba(255, 251, 251, 1);
+    margin-top: 2%;
+
+
+}
+#senha{
+    height: 7vh;
+    width: 55vh;
+    margin-left: 13%;
+    background-color: rgba(255, 251, 251, 1);
+    margin-top: 2%;
+}
+
+#logar{
+    margin-top: 0.9%;
+    margin-left: 25%;
+    width: 35vh;
+}
+#textoFinal{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#txtEnd{
+    text-decoration: none;
+    color: inherit;
+}
